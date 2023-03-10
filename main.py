@@ -60,6 +60,33 @@ def getSixLetterInput():
 
 ### Main Program ###
 
+# Introduction
+print(r"""     
+
+
+ __       __                            __         ______                                              
+/  |  _  /  |                          /  |       /      \                                             
+$$ | / \ $$ |  ______    ______    ____$$ |      /$$$$$$  |  ______   _____  ____    ______    _______ 
+$$ |/$  \$$ | /      \  /      \  /    $$ |      $$ | _$$/  /      \ /     \/    \  /      \  /       |
+$$ /$$$  $$ |/$$$$$$  |/$$$$$$  |/$$$$$$$ |      $$ |/    | $$$$$$  |$$$$$$ $$$$  |/$$$$$$  |/$$$$$$$/ 
+$$ $$/$$ $$ |$$ |  $$ |$$ |  $$/ $$ |  $$ |      $$ |$$$$ | /    $$ |$$ | $$ | $$ |$$    $$ |$$      \ 
+$$$$/  $$$$ |$$ \__$$ |$$ |      $$ \__$$ |      $$ \__$$ |/$$$$$$$ |$$ | $$ | $$ |$$$$$$$$/  $$$$$$  |
+$$$/    $$$ |$$    $$/ $$ |      $$    $$ |      $$    $$/ $$    $$ |$$ | $$ | $$ |$$       |/     $$/ 
+$$/      $$/  $$$$$$/  $$/        $$$$$$$/        $$$$$$/   $$$$$$$/ $$/  $$/  $$/  $$$$$$$/ $$$$$$$/  
+                                                                                                       
+                                                                                                                                                                                                    
+  """)
+
+print("Welcome to Word Games.")
+print("_______________________________________________________________________________")
+print()
+print("You have five chances to guess the word")
+print("The word is six characters long")
+print("If the character is in the right spot, it will be green")
+print("If it's not in the right spot, but is in the word, it will be yellow")
+print("If it's not in the word at all, it will be red")
+print()
+print()
 # Set the secret word, and take in guesses. Determine if guesses are correct or not.
 secret = "iceman"
 guesses = 0
